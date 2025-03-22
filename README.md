@@ -35,7 +35,7 @@ training_data/
 Run the training script:
 
 ```bash
-python training.py
+python images.py --mode train --data_dir training_data --augmentation --aug_factor 10 
 ```
 
 
@@ -52,15 +52,10 @@ This will:
 To predict race from a new image:
 
 ```bash
-python prediction.py path/to/image.jpg --visualize
+python images.py --mode predict path/to/image.jpg --visualize
 ```
 
-Options:
-- `--predictor`: Path to the facial landmark predictor (default: shape_predictor_68_face_landmarks.dat)
-- `--model`: Path to the trained model (default: race_detection_model.pkl)
-- `--visualize`: Generate visualization of the predictions
-
-## NOTE: Some results are inaccurate, maybe use more data for the model to train upon, you can add more race or change some images.
+## NOTE: Some results are inaccurate, maybe use more data for the model to train upon, you can add more race or change some images or train it again.
 ## NOTE: Inside the training_data folder you'll see subfolder, those are the race names and the images inside it are training data.
 ## Explore the code and modify it to your liking. 
 
