@@ -60,8 +60,8 @@ Options:
 - `--model`: Path to the trained model (default: race_detection_model.pkl)
 - `--visualize`: Generate visualization of the predictions
 
-
-
-
+## NOTE: Some results are inaccurate, maybe use more data for the model to train upon, you can add more race or change some images.
+## NOTE: Inside the training_data folder you'll see subfolder, those are the race names and the images inside it are training data.
+## Explore the code and modify it to your liking. 
 
 
