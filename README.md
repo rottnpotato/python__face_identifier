@@ -13,7 +13,7 @@
 
 
 ## Each subdirectory name will be used as the race label.
-
+```
 training_data/
 ├── asian/
 │   ├── image1.jpg
@@ -26,7 +26,7 @@ training_data/
 │   ├── image1.jpg
 │   └── ...
 └── ...
-
+```
 
 Run the training script:
 
