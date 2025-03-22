@@ -3,8 +3,8 @@
 1. Python 3.7+
 2. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/facial-race-detection.git
-cd facial-race-detection
+git clone https://github.com/rottnpotato/python__face_identifier.git
+cd python__face_identifier
 ```
  or download it as zip.
 3. if downloaded as zip, extract files.
