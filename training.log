@@ -1,0 +1,82 @@
+2025-03-22 10:27:43,019 - INFO - Starting dataset creation...
+2025-03-22 10:27:46,406 - INFO - Found 4 race categories: ['african_american', 'asian', 'caucasian', 'orientalid']
+2025-03-22 10:27:46,407 - INFO - Processing 6 images for race: african_american
+2025-03-22 10:27:46,551 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:46,551 - WARNING - Failed to process training_data\african_american\afro_ame1.jpg
+2025-03-22 10:27:46,645 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:46,646 - WARNING - Failed to process training_data\african_american\afro_ame2.jpg
+2025-03-22 10:27:46,742 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:46,751 - WARNING - Failed to process training_data\african_american\afro_ame3.jpg
+2025-03-22 10:27:46,839 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:46,840 - WARNING - Failed to process training_data\african_american\afro_ame4.jpg
+2025-03-22 10:27:46,923 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:46,923 - WARNING - Failed to process training_data\african_american\afro_ame5.jpg
+2025-03-22 10:27:47,020 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,020 - WARNING - Failed to process training_data\african_american\afro_ame7.jpg
+2025-03-22 10:27:47,022 - INFO - Processing 7 images for race: asian
+2025-03-22 10:27:47,114 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,115 - WARNING - Failed to process training_data\asian\asian1.jpg
+2025-03-22 10:27:47,217 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,217 - WARNING - Failed to process training_data\asian\asian2.jpg
+2025-03-22 10:27:47,311 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,311 - WARNING - Failed to process training_data\asian\asian3.jpg
+2025-03-22 10:27:47,399 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,400 - WARNING - Failed to process training_data\asian\asian4.jpg
+2025-03-22 10:27:47,495 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,496 - WARNING - Failed to process training_data\asian\asian5.jpg
+2025-03-22 10:27:47,594 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,595 - WARNING - Failed to process training_data\asian\asian6.jpg
+2025-03-22 10:27:47,690 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,690 - WARNING - Failed to process training_data\asian\asian7.jpg
+2025-03-22 10:27:47,692 - INFO - Processing 6 images for race: caucasian
+2025-03-22 10:27:47,782 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,782 - WARNING - Failed to process training_data\caucasian\caucasian1.jpg
+2025-03-22 10:27:47,870 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,870 - WARNING - Failed to process training_data\caucasian\caucasian2.jpg
+2025-03-22 10:27:47,978 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:47,979 - WARNING - Failed to process training_data\caucasian\caucasian3.jpg
+2025-03-22 10:27:48,072 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,072 - WARNING - Failed to process training_data\caucasian\caucasian4.jpg
+2025-03-22 10:27:48,167 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,168 - WARNING - Failed to process training_data\caucasian\caucasian5.jpg
+2025-03-22 10:27:48,263 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,264 - WARNING - Failed to process training_data\caucasian\caucasian6.jpg
+2025-03-22 10:27:48,266 - INFO - Processing 5 images for race: orientalid
+2025-03-22 10:27:48,361 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,361 - WARNING - Failed to process training_data\orientalid\orientalid1.jpg
+2025-03-22 10:27:48,455 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,455 - WARNING - Failed to process training_data\orientalid\orientalid2.jpg
+2025-03-22 10:27:48,555 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,556 - WARNING - Failed to process training_data\orientalid\orientalid3.jpg
+2025-03-22 10:27:48,673 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,673 - WARNING - Failed to process training_data\orientalid\orientalid4.jpg
+2025-03-22 10:27:48,763 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:27:48,764 - WARNING - Failed to process training_data\orientalid\orientalid6.jpg
+2025-03-22 10:27:48,766 - INFO - Created dataset with 0 samples
+2025-03-22 10:27:48,806 - ERROR - No training data found or processed.
+2025-03-22 10:30:16,195 - INFO - Starting dataset creation...
+2025-03-22 10:30:19,626 - INFO - Found 4 race categories: ['african_american', 'asian', 'caucasian', 'orientalid']
+2025-03-22 10:30:19,627 - INFO - Processing 6 images for race: african_american
+2025-03-22 10:30:20,338 - INFO - Processing 7 images for race: asian
+2025-03-22 10:30:21,130 - INFO - Processing 6 images for race: caucasian
+2025-03-22 10:30:21,816 - INFO - Processing 5 images for race: orientalid
+2025-03-22 10:30:22,405 - INFO - Created dataset with 72 samples
+2025-03-22 10:30:22,442 - INFO - Starting model training...
+2025-03-22 10:30:22,446 - INFO - Training set size: 57, Test set size: 15
+2025-03-22 10:30:22,447 - INFO - Starting hyperparameter tuning...
+2025-03-22 10:30:26,392 - INFO - Best parameters: {'svm__C': 1, 'svm__gamma': 'scale', 'svm__kernel': 'linear'}
+2025-03-22 10:30:26,396 - INFO - Test accuracy: 0.8000
+2025-03-22 10:30:27,231 - INFO - Classification Report:
+                  precision    recall  f1-score   support
+
+african_american       0.80      1.00      0.89         4
+           asian       0.60      0.75      0.67         4
+       caucasian       1.00      1.00      1.00         4
+      orientalid       1.00      0.33      0.50         3
+
+        accuracy                           0.80        15
+       macro avg       0.85      0.77      0.76        15
+    weighted avg       0.84      0.80      0.78        15
+
+2025-03-22 10:30:27,236 - INFO - Trained model saved to race_detection_model.pkl
+2025-03-22 10:30:27,240 - INFO - Model training complete!

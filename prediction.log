@@ -1,0 +1,2 @@
+2025-03-22 10:32:36,200 - ERROR - Error in face alignment: Can't parse 'center'. Sequence item with index 0 has a wrong type
+2025-03-22 10:32:36,202 - WARNING - No faces detected or processed in the image.
