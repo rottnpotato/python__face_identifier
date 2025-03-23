@@ -9,12 +9,13 @@ cd python__face_identifier
  or download it as zip.
 3. if downloaded as zip, extract files.
 4. navigate to the root project directory.
-5. install CMake first (search it on google).
-6. install required packages:
+5. install visual studio build tools, then select desktop development and select c++ for cmake then install.
+6. install CMake (search it on google).
+7. install required packages:
 ```bash
 pip install numpy opencv-python dlib scikit-image scikit-learn imutils matplotlib tqdm joblib
 ```
-7. dowload this file (`http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2`) and extract it, copy the `shape_predictor_68_face_landmarks.dat` to your projects directory (along side training_data).
+8. dowload this file (`http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2`) and extract it, copy the `shape_predictor_68_face_landmarks.dat` to your projects directory (along side training_data).
 
 ## Each subdirectory name will be used as the race label.
 ```
@@ -35,7 +36,7 @@ training_data/
 Run the training script:
 
 ```bash
-python images.py --mode train --data_dir training_data --augmentation --aug_factor 10 
+python images.py --mode train --data_dir training_data --augmentation --aug_factor 15 
 ```
 
 
