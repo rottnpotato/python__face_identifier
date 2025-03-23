@@ -1,17 +1,20 @@
 ## Installation
-
+```text
 1. Python 3.7+
 2. Clone the repository:
+```
 ```bash
 git clone https://github.com/rottnpotato/python__face_identifier.git
 cd python__face_identifier
 ```
+```text
  or download it as zip.
 3. if downloaded as zip, extract files.
 4. navigate to the root project directory.
 5. install visual studio build tools, then select desktop development and select c++ for cmake then install.
 6. install CMake (search it on google).
 7. install required packages:
+```
 ```bash
 pip install numpy opencv-python dlib scikit-image scikit-learn imutils matplotlib tqdm joblib
 ```
