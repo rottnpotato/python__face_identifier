@@ -58,6 +58,11 @@ To predict race from a new image:
 ```bash
 python images.py --mode predict path/to/image.jpg --visualize
 ```
+To predict race from a camera source :
+
+```bash
+python images.py --mode camera --visualize
+```
 
 ## NOTE: Some results are inaccurate, maybe use more data for the model to train upon, you can add more race or change some images or train it again.
 ## NOTE: Inside the training_data folder you'll see subfolder, those are the race names and the images inside it are training data.
