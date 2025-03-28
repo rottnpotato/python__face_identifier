@@ -1,16 +1,24 @@
-## Prerequisites
-
+## Installation
+```text
 1. Python 3.7+
-2. Required packages:
-
-```pip install numpy opencv-python dlib scikit-image scikit-learn imutils matplotlib tqdm joblib```
-
-=============================================================================================
-## Usage steps:
-
-1. navigate to the projects directory
-2. follow the commands below.
-
+2. Clone the repository:
+```
+```bash
+git clone https://github.com/rottnpotato/python__face_identifier.git
+cd python__face_identifier
+```
+```text
+ or download it as zip.
+3. if downloaded as zip, extract files.
+4. navigate to the root project directory.
+5. install visual studio build tools, then select desktop development and select c++ for cmake then install.
+6. install CMake (search it on google).
+7. install required packages:
+```
+```bash
+pip install numpy opencv-python dlib scikit-image scikit-learn imutils matplotlib tqdm joblib
+```
+8. dowload this file (`http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2`) and extract it, copy the `shape_predictor_68_face_landmarks.dat` to your projects directory (along side training_data).
 
 ## Each subdirectory name will be used as the race label.
 ```
@@ -30,7 +38,9 @@ training_data/
 
 Run the training script:
 
-```python training.py```
+```bash
+python images.py --mode train --data_dir training_data --augmentation --aug_factor 15 
+```
 
 
 This will:
@@ -45,15 +55,17 @@ This will:
 
 To predict race from a new image:
 
-```python prediction.py path/to/image.jpg --visualize```
+```bash
+python images.py --mode predict path/to/image.jpg --visualize
+```
+To predict race from a camera source :
 
-Options:
-- `--predictor`: Path to the facial landmark predictor (default: shape_predictor_68_face_landmarks.dat)
-- `--model`: Path to the trained model (default: race_detection_model.pkl)
-- `--visualize`: Generate visualization of the predictions
+```bash
+python images.py --mode camera --visualize
+```
 
-
-
-
+## NOTE: Some results are inaccurate, maybe use more data for the model to train upon, you can add more race or change some images or train it again.
+## NOTE: Inside the training_data folder you'll see subfolder, those are the race names and the images inside it are training data.
+## Explore the code and modify it to your liking. 
 
 
